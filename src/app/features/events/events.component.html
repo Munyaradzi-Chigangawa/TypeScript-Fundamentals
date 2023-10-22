@@ -1,0 +1,8 @@
+<app-nav></app-nav>
+<div class="container">
+    <h1>Upcoming Events</h1>
+    <hr/>
+    <app-event-thumbnail (click)="handleEventClick(event.name)" *ngFor="let event of events" [event]="event" >
+      
+    </app-event-thumbnail>
+</div>
