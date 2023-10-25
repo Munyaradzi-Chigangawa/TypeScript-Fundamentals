@@ -2,7 +2,7 @@
 
 
 .hoverwell:hover {
-    background-color: #485563;
+    background-color: #b5bbc2;
     cursor: pointer;
   }
   
@@ -36,7 +36,7 @@
     background-color: #f89406;
   }
 .thumbnail {
-  min-height: 210px;
+  min-height: 170px;
 }
 
 .pad-left {
